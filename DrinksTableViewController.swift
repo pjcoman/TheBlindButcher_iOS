@@ -16,13 +16,20 @@ class DrinksTableViewController: UITableViewController {
     
     var receivedString:String!
     
+    
+    
 
     
     override func viewDidLoad() {
         
         
+        
+        self.navigationController?.navigationBar.barTintColor = UIColor.blackColor()
+        
         self.tableView.rowHeight = UITableViewAutomaticDimension
         self.tableView.estimatedRowHeight = 200
+        
+        print(receivedString)
         
         
         
@@ -50,9 +57,7 @@ class DrinksTableViewController: UITableViewController {
         
         
         let query: PFQuery = PFQuery(className: "theblindbutcherdrinks").fromLocalDatastore()
-     //   query.orderByAscending("sort").whereKey("group", equalTo: "IMPORTEDBEERSCANS")
-        query.orderByAscending("group")
-        query.addAscendingOrder("sort")
+        query.orderByAscending("sort").whereKey("group", equalTo: receivedString)
         query.findObjectsInBackgroundWithBlock{(drinkobjects, error) -> Void in
             
     

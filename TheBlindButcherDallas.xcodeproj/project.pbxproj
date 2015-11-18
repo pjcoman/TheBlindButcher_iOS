@@ -31,6 +31,7 @@
 		C79196071BFA8CCC000C05D6 /* DrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79196061BFA8CCC000C05D6 /* DrinksTableViewController.swift */; };
 		C7D36DC71BFAC5DB00E086AB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D36DC61BFAC5DB00E086AB /* ParseUI.framework */; };
 		C7D36DC91BFAC6BA00E086AB /* DrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D36DC81BFAC6BA00E086AB /* DrinkTableViewCell.swift */; };
+		C7D36DCD1BFBF00700E086AB /* DrinkStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D36DCC1BFBF00700E086AB /* DrinkStylePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		C791960A1BFA9824000C05D6 /* TheBlindButcherDallas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheBlindButcherDallas-Bridging-Header.h"; sourceTree = "<group>"; };
 		C7D36DC61BFAC5DB00E086AB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		C7D36DC81BFAC6BA00E086AB /* DrinkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkTableViewCell.swift; sourceTree = "<group>"; };
+		C7D36DCC1BFBF00700E086AB /* DrinkStylePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkStylePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				C79195C31BFA7A35000C05D6 /* LaunchScreen.storyboard */,
 				C79195C61BFA7A35000C05D6 /* Info.plist */,
 				C7D36DC81BFAC6BA00E086AB /* DrinkTableViewCell.swift */,
+				C7D36DCC1BFBF00700E086AB /* DrinkStylePicker.swift */,
 			);
 			path = TheBlindButcherDallas;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			files = (
 				C79195BD1BFA7A35000C05D6 /* ViewController.swift in Sources */,
 				C79196071BFA8CCC000C05D6 /* DrinksTableViewController.swift in Sources */,
+				C7D36DCD1BFBF00700E086AB /* DrinkStylePicker.swift in Sources */,
 				C79195BB1BFA7A35000C05D6 /* AppDelegate.swift in Sources */,
 				C7D36DC91BFAC6BA00E086AB /* DrinkTableViewCell.swift in Sources */,
 			);
